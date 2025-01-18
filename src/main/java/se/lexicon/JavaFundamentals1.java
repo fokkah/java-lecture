@@ -1,6 +1,4 @@
-package se.lexicon;
 
-public class JavaFundamentals1 {
 
     //Java Comments
     // single line comment
@@ -8,7 +6,7 @@ public class JavaFundamentals1 {
     /** This is a java doc, to create documentation java code where i can export the comments to the .doc
      */
     //psvm + TAB = public static void main(String[] args) {
-    public static void main(String[] args) {
+    /* public static void main(String[] args) {
         System.out.println("Hello World");
 
         // ## Variable Declaration ##
@@ -112,7 +110,23 @@ public class JavaFundamentals1 {
 
                 // Methods
 
+        JavaFundamentals1.displayMenu();
 
+        // implement a logic that is responsible to display a menu in the console.
 
+        public static void displayMenu;(){
+            System.out.println("1. Addition");
+            System.out.println("2. Subtraction");
+            System.out.println("0. Exit");
+        }
+    }
+
+        //declare a static method to convert celsius to fahrenheit
+
+    public static double celsiusToFahrenheit( double celsius){
+        // Fahrenheit = Celsius * 9/5 + 32;
+        return  (celsius * 9 / 5) +32;
+        }
     }
 }
+*/
